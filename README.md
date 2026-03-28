@@ -2,7 +2,7 @@
 
 Material del curso introductorio de JavaScript dictado en el programa Coding Bootcamps ESPOL (FIEC).
 
-**Abril – Mayo 2025 · Miércoles y viernes · 19h30 – 21h30 · Virtual**
+**Abril – Mayo 2026 · Miércoles y viernes · 19h30 – 21h30 · Virtual**
 
 ---
 
@@ -13,32 +13,27 @@ Material del curso introductorio de JavaScript dictado en el programa Coding Boo
 ├── modulo-1-fundamentos/
 │   ├── clase-01/          # Sintaxis básica, tipos primitivos
 │   ├── clase-02/          # Tipos compuestos, operadores
-│   └── clase-03/          # Operadores lógicos, ternario
+│   └── clase-03/          # Operadores de comparación y lógicos
 │
 ├── modulo-2-estructuras-control/
-│   ├── clase-04/          # if / else / switch
-│   ├── clase-05/          # for, while, do...while
-│   └── clase-06/          # break, continue, etiquetas
+│   ├── clase-04/          # if / else / switch, for
+│   └── clase-05/          # while, do...while, break, continue, etiquetas
 │
 ├── modulo-3-funciones/
-│   ├── clase-07/          # Definición, parámetros, anónimas
-│   └── clase-08/          # Scope, hoisting, arrow functions, closures
+│   ├── clase-06/          # Definición, parámetros, anónimas
+│   └── clase-07/          # Scope, hoisting, arrow functions, closures
 │
 ├── modulo-4-arreglos/
-│   ├── clase-09/          # Creación, push, pop, splice
-│   └── clase-10/          # map, filter, reduce, forEach
+│   └── clase-08/          # Creación, manipulación, map, filter, reduce, forEach
 │
 ├── modulo-5-objetos/
-│   ├── clase-11/          # Objetos, propiedades, JSON
-│   └── clase-12/          # Set, Map
+│   └── clase-09/          # Objetos, propiedades, métodos, JSON, Set, Map
 │
 ├── modulo-6-errores/
-│   ├── clase-13/          # try / catch / finally / throw
-│   └── clase-14/          # DevTools, debugging
+│   └── clase-10/          # try, catch, finally, throw, DevTools
 │
 ├── modulo-7-buenas-practicas/
-│   ├── clase-15/          # ESLint, Prettier, convenciones
-│   └── clase-16/          # Patrones de diseño, JSDoc
+│   └── clase-11/          # ESLint, Prettier, patrones de diseño, JSDoc
 │
 └── recursos/              # Slides, cronograma, links de interés
 ```
@@ -57,12 +52,12 @@ Cada carpeta de clase puede contener:
 | Módulo | Tema | Clases |
 |--------|------|--------|
 | 1 | Fundamentos de Programación en JavaScript | 1 – 3 |
-| 2 | Estructuras de Control | 4 – 6 |
-| 3 | Funciones | 7 – 8 |
-| 4 | Arreglos y sus Métodos | 9 – 10 |
-| 5 | Objetos y Estructuras de Datos Avanzadas | 11 – 12 |
-| 6 | Manejo de Errores y Depuración | 13 – 14 |
-| 7 | Buenas Prácticas y Patrones de Diseño | 15 – 16 |
+| 2 | Estructuras de Control | 4 – 5 |
+| 3 | Funciones | 6 – 7 |
+| 4 | Arreglos y sus Métodos | 8 |
+| 5 | Objetos y Estructuras de Datos Avanzadas | 9 |
+| 6 | Manejo de Errores y Depuración | 10 |
+| 7 | Buenas Prácticas y Patrones de Diseño | 11 |
 
 ---
 
@@ -100,4 +95,4 @@ node ejemplo.js
 
 ---
 
-Coding Bootcamps ESPOL · FIEC · 2025
+Coding Bootcamps ESPOL · FIEC · 2026
