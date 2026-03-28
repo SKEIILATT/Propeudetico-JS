@@ -1,1 +1,1 @@
-# Propeud-tico-JS
+# Propeudético-JS
