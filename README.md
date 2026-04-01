@@ -10,54 +10,39 @@ Material del curso introductorio de JavaScript dictado en el programa Coding Boo
 
 ```
 /
-├── modulo-1-fundamentos/
-│   ├── clase-01/          # Sintaxis básica, tipos primitivos
-│   ├── clase-02/          # Tipos compuestos, operadores
-│   └── clase-03/          # Operadores de comparación y lógicos
-│
-├── modulo-2-estructuras-control/
-│   ├── clase-04/          # if / else / switch, for
-│   └── clase-05/          # while, do...while, break, continue, etiquetas
-│
-├── modulo-3-funciones/
-│   ├── clase-06/          # Definición, parámetros, anónimas
-│   └── clase-07/          # Scope, hoisting, arrow functions, closures
-│
-├── modulo-4-arreglos/
-│   └── clase-08/          # Creación, manipulación, map, filter, reduce, forEach
-│
-├── modulo-5-objetos/
-│   └── clase-09/          # Objetos, propiedades, métodos, JSON, Set, Map
-│
-├── modulo-6-errores/
-│   └── clase-10/          # try, catch, finally, throw, DevTools
-│
-├── modulo-7-buenas-practicas/
-│   └── clase-11/          # ESLint, Prettier, patrones de diseño, JSDoc
-│
-└── recursos/              # Slides, cronograma, links de interés
+├── Clase1/                # Sintaxis básica, tipos primitivos
+├── Clase2/                # Tipos compuestos, operadores
+├── Clase3/                # Operadores de comparación y lógicos
+├── Clase4/                # if / else / switch, for
+├── Clase5/                # while, do...while, break, continue
+├── Clase6/                # Definición de funciones, parámetros
+├── Clase7/                # Scope, hoisting, arrow functions, closures
+├── Clase8/                # Arreglos, map, filter, reduce, forEach
+├── Clase9/                # Objetos, propiedades, métodos, JSON, Set, Map
+├── Clase10/               # try, catch, finally, throw, DevTools
+├── Clase11/               # ESLint, Prettier, patrones de diseño, JSDoc
+
 ```
 
-Cada carpeta de clase puede contener:
+Cada carpeta de clase contiene:
 
-- `ejercicios/` — ejercicios propuestos durante la sesión
-- `soluciones/` — soluciones comentadas
-- `notas.md` — apuntes y referencias de la clase
-- archivos `.js` de los ejemplos vistos en clase
+- `README.md` — notas y apuntes de la clase
+- `claseXX_javascript.pptx` — presentación de la clase
+- `tareaXX.pdf` — tarea/homework de la clase
 
 ---
 
 ## Contenido del curso
 
-| Módulo | Tema | Clases |
-|--------|------|--------|
-| 1 | Fundamentos de Programación en JavaScript | 1 – 3 |
-| 2 | Estructuras de Control | 4 – 5 |
-| 3 | Funciones | 6 – 7 |
-| 4 | Arreglos y sus Métodos | 8 |
-| 5 | Objetos y Estructuras de Datos Avanzadas | 9 |
-| 6 | Manejo de Errores y Depuración | 10 |
-| 7 | Buenas Prácticas y Patrones de Diseño | 11 |
+| Módulo | Tema | Clases | Materiales |
+|--------|------|--------|------------|
+| 1 | Fundamentos de Programación en JavaScript | Clase 1 – 3 | Presentación · Tarea · Guión |
+| 2 | Estructuras de Control | Clase 4 – 5 | Presentación · Tarea · Guión |
+| 3 | Funciones | Clase 6 – 7 | Presentación · Tarea · Guión |
+| 4 | Arreglos y sus Métodos | Clase 8 | Presentación · Tarea · Guión |
+| 5 | Objetos y Estructuras de Datos Avanzadas | Clase 9 | Presentación · Tarea · Guión |
+| 6 | Manejo de Errores y Depuración | Clase 10 | Presentación · Tarea · Guión |
+| 7 | Buenas Prácticas y Patrones de Diseño | Clase 11 | Presentación · Tarea · Guión |
 
 ---
 
@@ -76,15 +61,13 @@ Extensiones de VS Code sugeridas: **ESLint**, **Prettier** y **JavaScript (ES6) 
 
 ```bash
 # Clona el repositorio
-git clone https://github.com/tu-usuario/js-bootcamp-espol.git
+git clone https://github.com/SKEIILATT/Propeudetico-JS.git
 
 # Entra a la carpeta de la clase que quieras revisar
-cd modulo-1-fundamentos/clase-01
+cd Clase1
 
-# Ejecuta cualquier ejemplo con Node
-node ejemplo.js
+# Abre la presentación, revisa la tarea y consulta las notas
 ```
-
 ---
 
 ## Recursos adicionales
